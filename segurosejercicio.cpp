@@ -19,16 +19,16 @@ int main (void){
         cout<< "Ha elejido el servicio de seguros de vida destinados para educacion, hipoteca o para cualquier cosa que mejore su calidad de vida."<<endl;
         if (sal>=400 & sal<=910){
             ms=10000;
-            cout<<"El monto de su seguro de vida es de "<<ms<<endl;
+            cout<<"El monto de su seguro de vida es de $"<<ms<<endl;
         }else if(sal>=910.01 & sal<=1255){
             ms=14000;
-            cout<<"El monto de su seguro de vida es de "<<ms<<endl;
+            cout<<"El monto de su seguro de vida es de $"<<ms<<endl;
         }else if(sal>=1255.01 & sal<=1255){
             ms=18000;
-            cout<<"El monto de su seguro de vida es de "<<ms<<endl;
+            cout<<"El monto de su seguro de vida es de $"<<ms<<endl;
         }else if(sal>=1630.01){
             ms=22000;
-            cout<<"El monto de su seguro de vida es de "<<ms<<endl;
+            cout<<"El monto de su seguro de vida es de $"<<ms<<endl;
         }else{
             cout<<"El salario que ingreso no es valido.";
         } 

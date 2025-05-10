@@ -102,7 +102,7 @@ int main(void)
         }
         break;
     case 4:
-        cout << "Ha elegido el servicio de seguro por invalidez";
+        cout << "Ha elegido el servicio de seguro por gastos funerarios";
         if (sal >= 400 & sal <= 910)
         {
             ms = 10000;
